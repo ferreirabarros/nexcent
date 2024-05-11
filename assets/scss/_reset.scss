@@ -1,0 +1,18 @@
+*{
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html{
+  // raset de rem para 10px
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.6rem;
+}
+.align-content{
+  margin: 0 14.4rem;
+}
