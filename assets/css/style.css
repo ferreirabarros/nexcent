@@ -79,8 +79,173 @@ h4 {
   font-size: 1.2rem;
 }
 
+.shadow-2px {
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.8rem rgba(171, 190, 209, 0.2);
+}
+
+.shadow-16px {
+  border-radius: 0.8rem;
+  box-shadow: 30px 30px 50px #ABBED1;
+}
+
+.buttons {
+  color: #FFFFFF;
+  background: #28CB8B;
+  border: none;
+  border-radius: 0.4rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
 header {
   background-color: #F5F7FA;
+}
+header .header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8.4rem;
+}
+header .header-nav .header-nav-logo {
+  width: 100%;
+  max-width: 15.5rem;
+}
+header .header-nav .header-nav-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header .header-nav .header-nav-list li a {
+  padding: 0 2rem;
+  color: #263238;
+}
+header .header-nav div {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header .header-nav div .header-nav-login {
+  color: #28CB8B;
+  background: none;
+  border: none;
+}
+header .header-nav div .header-nav-signUp {
+  padding: 1rem 2rem;
+}
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 9.6rem;
+  margin-bottom: 9.6rem;
+}
+header .header-content .header-content-text h1 {
+  color: #4D4D4D;
+}
+header .header-content .header-content-text h1 span {
+  color: #28CB8B;
+}
+header .header-content .header-content-text p {
+  color: #717171;
+  padding: 1.6rem 0 3.2rem;
+}
+header .header-content .header-content-text button {
+  padding: 1.4rem 3.2rem;
+}
+header .header-content .header-content-img {
+  width: 100%;
+  max-width: 36.1rem;
+}
+header .header-content-imgDots {
+  width: 100%;
+  max-width: 4.6rem;
+  margin: 2.5rem 50vw;
+}
+
+main .clients {
+  margin-top: 4rem;
+  margin-bottom: 4.8rem;
+}
+main .clients .clients-text {
+  text-align: center;
+}
+main .clients .clients-text h2 {
+  color: #4D4D4D;
+}
+main .clients .clients-text p {
+  color: #717171;
+  padding: 1rem 0;
+}
+main .clients .clients-logos {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 6.5rem;
+}
+main .clients .clients-logos .clients-logos-img {
+  width: 100%;
+}
+main .clients .clients-manage .clients-manage-text {
+  text-align: center;
+}
+main .clients .clients-manage .clients-manage-text h2 {
+  color: #4D4D4D;
+}
+main .clients .clients-manage .clients-manage-text p {
+  color: #717171;
+  padding: 0.8rem 0 1.6rem;
+}
+main .clients .clients-manage .clients-manage-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4.2rem;
+}
+main .clients .clients-manage .clients-manage-cards .clients-manage-cards-item {
+  width: 100%;
+  max-width: 29.9rem;
+  height: 28rem;
+  text-align: center;
+  align-content: center;
+}
+main .clients .clients-manage .clients-manage-cards .clients-manage-cards-item img {
+  width: 100%;
+  max-width: 6.5rem;
+}
+main .clients .clients-manage .clients-manage-cards .clients-manage-cards-item h3 {
+  color: #4D4D4D;
+  padding: 0 3rem;
+}
+main .clients .clients-manage .clients-manage-cards .clients-manage-cards-item p {
+  color: #717171;
+  padding: 0 3rem;
+}
+main .clients .client-pixelgrade {
+  display: flex;
+  align-items: center;
+  gap: 4.9rem;
+}
+main .clients .client-pixelgrade img {
+  width: 100%;
+  max-width: 44.2rem;
+}
+main .clients .client-pixelgrade .client-pixelgrade-text {
+  width: 100%;
+  max-width: 66.1rem;
+}
+main .clients .client-pixelgrade .client-pixelgrade-text h2 {
+  color: #4D4D4D;
+  max-width: 60rem;
+}
+main .clients .client-pixelgrade .client-pixelgrade-text p {
+  color: #717171;
+  padding: 1.6rem 0 3.2rem;
+  max-width: 60rem;
+}
+main .clients .client-pixelgrade .client-pixelgrade-text button {
+  padding: 1.4rem 3.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

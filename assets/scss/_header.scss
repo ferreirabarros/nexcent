@@ -1,6 +1,74 @@
 @import "./medias";
 
 header{
-  background-color: $neutral-silver;
-  
+    background-color: $neutral-silver;
+    .header-nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 8.4rem;
+      .header-nav-logo{
+        width: 100%;
+        max-width: 15.5rem;
+      }
+      .header-nav-list{
+        display: flex;      
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        li a{
+          padding: 0 2rem;
+          color: $neutral-black;
+        }
+      }
+      div{
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        .header-nav-login{
+          color: $primary;
+          background: none;
+          border: none; 
+        }
+        .header-nav-signUp{
+          padding: 1rem 2rem;
+        }
+      }
+    }
+    
+    .header-content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 9.6rem;
+      margin-bottom: 9.6rem;
+      .header-content-text{
+        
+        h1{
+          color: $neutral-d-grey;
+          span{
+            color: $primary;
+          }
+        }
+        p{
+          color: $neutral-grey;
+          padding: 1.6rem 0 3.2rem;
+        }
+        button{
+          padding: 1.4rem 3.2rem;
+        }
+      }
+
+      .header-content-img{
+        width: 100%;
+        max-width: 36.1rem;
+      }
+    }
+
+    .header-content-imgDots{
+      width: 100%;
+      max-width: 4.6rem;
+      margin: 2.5rem 50vw;
+    }
 }
