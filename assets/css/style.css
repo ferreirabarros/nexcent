@@ -182,7 +182,8 @@ main .clients .clients-text p {
 main .clients .clients-logos {
   display: flex;
   justify-content: space-between;
-  margin: 3rem 0 6.5rem;
+  margin-top: 3rem;
+  margin-bottom: 6.5rem;
 }
 main .clients .clients-logos .clients-logos-img {
   width: 100%;
@@ -225,6 +226,7 @@ main .clients .clients-manage .clients-manage-cards .clients-manage-cards-item p
 main .clients .client-pixelgrade {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 4.9rem;
 }
 main .clients .client-pixelgrade img {
@@ -245,6 +247,75 @@ main .clients .client-pixelgrade .client-pixelgrade-text p {
   max-width: 60rem;
 }
 main .clients .client-pixelgrade .client-pixelgrade-text button {
+  padding: 1.4rem 3.2rem;
+}
+main .achievements {
+  background-color: #F5F7FA;
+}
+main .achievements .achievements-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 28.8rem;
+}
+main .achievements .achievements-content .achievements-content-text h2 {
+  color: #4D4D4D;
+}
+main .achievements .achievements-content .achievements-content-text h2 span {
+  color: #28CB8B;
+}
+main .achievements .achievements-content .achievements-content-text p {
+  color: #717171;
+  padding: 1rem 0;
+}
+main .achievements .achievements-content .achievements-content-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 4rem;
+  width: 100%;
+  max-width: 54rem;
+}
+main .achievements .achievements-content .achievements-content-list .achievements-content-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  width: 100%;
+  max-width: 25.5rem;
+}
+main .achievements .achievements-content .achievements-content-list .achievements-content-list-item img {
+  width: 100%;
+  max-width: 4.8rem;
+}
+main .achievements .achievements-content .achievements-content-list .achievements-content-list-item div h3 {
+  color: #4D4D4D;
+}
+main .achievements .achievements-content .achievements-content-list .achievements-content-list-item div p {
+  color: #717171;
+}
+main .calender .calender-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4.8rem;
+  margin-bottom: 4.8rem;
+  gap: 5rem;
+}
+main .calender .calender-content img {
+  width: 100%;
+  max-width: 44.1rem;
+}
+main .calender .calender-content .calender-content-text {
+  width: 100%;
+  max-width: 66.1rem;
+}
+main .calender .calender-content .calender-content-text h2 {
+  color: #4D4D4D;
+}
+main .calender .calender-content .calender-content-text p {
+  color: #717171;
+  padding: 1.6rem 0 3.2rem;
+}
+main .calender .calender-content .calender-content-text button {
   padding: 1.4rem 3.2rem;
 }
 

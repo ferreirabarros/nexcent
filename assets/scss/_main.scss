@@ -17,7 +17,8 @@ main{
     .clients-logos{
       display: flex;
       justify-content: space-between;
-      margin: 3rem 0 6.5rem;
+      margin-top: 3rem;
+      margin-bottom: 6.5rem;
       .clients-logos-img{
         width: 100%;
       }
@@ -63,6 +64,7 @@ main{
     .client-pixelgrade{
       display: flex;
       align-items: center;
+      justify-content: space-between;
       gap: 4.9rem;
       img{
         width: 100%;
@@ -86,6 +88,82 @@ main{
       }
     }
   }
+  
+   .achievements{
+    background-color: $neutral-silver;
+    .achievements-content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 28.8rem;
+      .achievements-content-text{
+        h2{
+          color: $neutral-d-grey;
+          span{
+            color: $primary;
+          }
+        }
+        p{
+          color: $neutral-grey;
+          padding: 1rem 0;
+        }
+      }
+      .achievements-content-list{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 4rem;
+        width: 100%;
+        max-width: 54rem;
+        .achievements-content-list-item{
+          display: flex;
+          align-items: center;
+          gap: 1.6rem;
+          width: 100%;
+          max-width: 25.5rem;
+          img{
+          width: 100%;
+          max-width: 4.8rem;
+          }
+          div{
+            h3{
+              color: $neutral-d-grey;
+            }
+            p{
+              color: $neutral-grey;
+            }
+          }
+        }
+      }
+    }
+  }
 
+  .calender{
+    .calender-content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 4.8rem;
+      margin-bottom: 4.8rem;
+      gap: 5rem;
+      img{
+        width: 100%;
+        max-width: 44.1rem;
+      }
+      .calender-content-text{
+        width: 100%;
+        max-width: 66.1rem;
+        h2{
+          color: $neutral-d-grey;
+        }
+        p{
+          color: $neutral-grey;
+          padding: 1.6rem 0 3.2rem;
+        }
+        button{
+          padding: 1.4rem 3.2rem;
+        }
+      }
+    }
+  }
 
 }
