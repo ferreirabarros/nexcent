@@ -6,4 +6,19 @@
   border-radius: .4rem;
   font-weight: 500;
   font-size: 1.6rem;
+  padding: 1.4rem 3.2rem;
+}
+
+.buttonsArrow{
+  font-weight: bold;
+  font-size: 2rem;
+  color: $primary;
+  background: none;
+  border: none;
+  display: flex;
+  gap: .8rem;
+  img{
+    width: 100%;
+    max-width: 2.4rem;
+  }
 }

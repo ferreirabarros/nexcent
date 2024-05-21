@@ -6,11 +6,7 @@ main{
     margin-bottom: 4.8rem;
     .clients-text{
       text-align: center;
-      h2{
-        color: $neutral-d-grey;
-      }
       p{
-        color: $neutral-grey;
         padding: 1rem 0;
       }
     }
@@ -26,12 +22,7 @@ main{
     .clients-manage{
       .clients-manage-text{
         text-align: center;
-        h2{
-          color: $neutral-d-grey;
-        
-        }
         p{
-          color: $neutral-grey;
           padding: .8rem 0 1.6rem;
         }
       }
@@ -51,11 +42,9 @@ main{
             max-width: 6.5rem;
           }
           h3{
-            color: $neutral-d-grey;
             padding: 0 3rem;
           }
           p{
-            color: $neutral-grey;
             padding: 0 3rem;
           }
         }
@@ -74,16 +63,11 @@ main{
         width: 100%;
         max-width: 66.1rem;
         h2{
-          color: $neutral-d-grey;
           max-width: 60rem;
         }
         p{
-          color: $neutral-grey;
           padding: 1.6rem 0 3.2rem;
           max-width: 60rem;
-        }
-        button{
-          padding: 1.4rem 3.2rem;
         }
       }
     }
@@ -98,13 +82,11 @@ main{
       height: 28.8rem;
       .achievements-content-text{
         h2{
-          color: $neutral-d-grey;
           span{
             color: $primary;
           }
         }
         p{
-          color: $neutral-grey;
           padding: 1rem 0;
         }
       }
@@ -123,14 +105,6 @@ main{
           img{
           width: 100%;
           max-width: 4.8rem;
-          }
-          div{
-            h3{
-              color: $neutral-d-grey;
-            }
-            p{
-              color: $neutral-grey;
-            }
           }
         }
       }
@@ -152,15 +126,126 @@ main{
       .calender-content-text{
         width: 100%;
         max-width: 66.1rem;
-        h2{
-          color: $neutral-d-grey;
-        }
         p{
-          color: $neutral-grey;
           padding: 1.6rem 0 3.2rem;
         }
-        button{
-          padding: 1.4rem 3.2rem;
+      }
+    }
+  }
+
+  .customer{
+    background-color: $neutral-silver;
+    .customer-content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 39rem;
+      gap: 7.8rem;
+      .customer-content-img{
+        width: 100%;
+        max-width: 32.6rem;
+      }
+      .customer-content-text{
+        width: 100%;
+        max-width: 74.8rem;
+        .font-medium-body-2{
+          color: $neutral-grey;
+          padding-bottom: 1.6rem;
+        }
+        h4{
+          color: $primary;  
+        }
+        .font-regular-body-2{
+          color: $neutral-l-grey;
+          padding: .8rem 0 3.2rem;
+        }
+        .customer-content-text-imgs{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .customer-content-text-imgs-item{
+            width: 100%;
+            max-width: 4.8rem;
+          }
+        }
+      }
+    }
+  }
+
+  .community{
+    .community-content{
+      margin-top: 4.8rem;
+      margin-bottom: 9.5rem;
+      .community-content-text{
+        text-align: center;
+        p{
+          width: 100%;
+          max-width: 62.8rem;
+          text-align: center;
+          margin: .8rem auto 1.6rem ;
+        }
+      }
+      .community-content-cards{
+        display: flex;
+        justify-content: space-between;
+        align-items:center; 
+        .community-content-cards-item{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          max-width: 36.8rem;
+          height: 36.6rem;
+          .community-content-cards-item-img{
+            object-fit: cover;
+            position: absolute;
+          }
+          .community-content-cards-item-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: $neutral-silver;
+            max-width: 31.7rem;
+            height: 17.6rem;
+            position: relative;
+            top: calc(50% + 1rem);
+            h4{
+              text-align: center;
+              padding: 1.6rem;
+            }
+          
+          }
+        }
+      }
+    }
+
+  }
+
+  .frame{
+    background-color: $neutral-silver;
+
+    .frame-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 3.2rem 0;
+      h1{
+        color: $neutral-black;
+        max-width: 88.7rem;
+        text-align: center;
+        padding-bottom: 3.2rem;
+      }
+      button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        white-space: nowrap;
+        gap:.8rem;
+        img{
+          width: 100%;
+          max-width: 2.4rem;
         }
       }
     }

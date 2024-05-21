@@ -1,1 +1,90 @@
 @import "./medias";
+
+footer{
+    background-color: $neutral-black;
+    .footer-content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 32.8rem;
+      .footer-content-social{
+        img{
+          width: 100%;
+          max-width: 19.2rem;
+        }
+        .footer-content-social-text{
+          padding: 4rem 0;
+          p{
+            color: $neutral-silver;
+            padding-bottom: .8rem;
+          }
+          span{
+            color: $neutral-silver;
+          }
+        }
+        .footer-content-social-icons{
+          display: flex;
+          gap: 1.6rem;
+          img{
+            width: 100%;
+            max-width: 3.2rem;
+          }
+        }
+      }
+      .footer-content-lists{
+        display: flex;
+        justify-content: space-between;
+
+        width: 100%;
+        max-width: 63.5rem;
+        .footer-content-lists-list{
+          h4{
+            color: $neutral-white;
+            padding-bottom: 2.4rem;
+          }
+          ul{
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            li{
+              color: $neutral-silver;
+            }
+          }
+        }
+        .footer-content-lists-form{
+          h4{
+            color: $neutral-white;
+            padding-bottom: 3.6rem;
+          }
+          form{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            input{
+              background-color: #515B60;
+              width: 25.5rem;
+              height: 4rem;
+              border-radius: .8rem;
+              position: absolute;
+              border: none;
+              
+            }
+            ::-webkit-input-placeholder{
+              color:$neutral-silver;
+              padding: 1.2rem;
+            }
+            a{
+              img{
+                width: 100%;
+                max-width: 1.8rem;
+                position: relative;
+                left: 22rem;
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+}

@@ -46,17 +46,12 @@ header{
       .header-content-text{
         
         h1{
-          color: $neutral-d-grey;
           span{
             color: $primary;
           }
         }
         p{
-          color: $neutral-grey;
           padding: 1.6rem 0 3.2rem;
-        }
-        button{
-          padding: 1.4rem 3.2rem;
         }
       }
 
