@@ -476,18 +476,19 @@ footer .footer-content .footer-content-lists .footer-content-lists-form form inp
   width: 25.5rem;
   height: 4rem;
   border-radius: 0.8rem;
-  position: absolute;
   border: none;
 }
 footer .footer-content .footer-content-lists .footer-content-lists-form form ::-webkit-input-placeholder {
   color: #F5F7FA;
   padding: 1.2rem;
 }
+footer .footer-content .footer-content-lists .footer-content-lists-form form a {
+  position: relative;
+  left: -3.2rem;
+}
 footer .footer-content .footer-content-lists .footer-content-lists-form form a img {
   width: 100%;
   max-width: 1.8rem;
-  position: relative;
-  left: 22rem;
 }
 
 /*# sourceMappingURL=style.css.map */

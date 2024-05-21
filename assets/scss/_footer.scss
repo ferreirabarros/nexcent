@@ -65,7 +65,6 @@ footer{
               width: 25.5rem;
               height: 4rem;
               border-radius: .8rem;
-              position: absolute;
               border: none;
               
             }
@@ -74,11 +73,11 @@ footer{
               padding: 1.2rem;
             }
             a{
+              position: relative;
+              left: -3.2rem;
               img{
                 width: 100%;
                 max-width: 1.8rem;
-                position: relative;
-                left: 22rem;
               }
             }
           }
