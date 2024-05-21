@@ -124,66 +124,70 @@ p {
 header {
   background-color: #F5F7FA;
 }
-header .header-nav {
+header .header-content .header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 8.4rem;
 }
-header .header-nav .header-nav-logo {
+header .header-content .header-nav .header-nav-logo {
   width: 100%;
   max-width: 15.5rem;
 }
-header .header-nav .header-nav-list {
+header .header-content .header-nav .header-nav-list {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
 }
-header .header-nav .header-nav-list li a {
+header .header-content .header-nav .header-nav-list li a {
   padding: 0 2rem;
   color: #263238;
 }
-header .header-nav div {
+header .header-content .header-nav div {
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
   justify-content: center;
 }
-header .header-nav div .header-nav-login {
+header .header-content .header-nav div .header-nav-login {
   color: #4caf4f;
   background: none;
   border: none;
 }
-header .header-nav div .header-nav-signUp {
+header .header-content .header-nav div .header-nav-signUp {
   padding: 1rem 2rem;
 }
-header .header-content {
+header .header-content .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 9.6rem;
   margin-bottom: 9.6rem;
 }
-header .header-content .header-content-text h1 span {
+header .header-content .header-content .header-content-text h1 span {
   color: #4caf4f;
 }
-header .header-content .header-content-text p {
+header .header-content .header-content .header-content-text p {
   padding: 1.6rem 0 3.2rem;
 }
-header .header-content .header-content-img {
+header .header-content .header-content .header-content-img {
   width: 100%;
   max-width: 36.1rem;
 }
-header .header-content-imgDots {
+header .header-content .header-dot {
+  display: flex;
+  justify-content: center;
+}
+header .header-content .header-dot .header-dot-img {
   width: 100%;
   max-width: 4.6rem;
-  margin: 2.5rem 50vw;
+  margin: 2.5rem 0;
 }
 
 main .clients {
-  margin-top: 4rem;
-  margin-bottom: 4.8rem;
+  padding-top: 4rem;
+  padding-bottom: 4.8rem;
 }
 main .clients .clients-text {
   text-align: center;
@@ -257,7 +261,7 @@ main .achievements .achievements-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 28.8rem;
+  padding: 6.4rem 0;
 }
 main .achievements .achievements-content .achievements-content-text h2 span {
   color: #4caf4f;
@@ -287,8 +291,7 @@ main .calender .calender-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 4.8rem;
-  margin-bottom: 4.8rem;
+  padding: 4.8rem 0;
   gap: 5rem;
 }
 main .calender .calender-content img {
@@ -309,7 +312,7 @@ main .customer .customer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 39rem;
+  padding: 3.3rem 0;
   gap: 7.8rem;
 }
 main .customer .customer-content .customer-content-img {
@@ -341,8 +344,7 @@ main .customer .customer-content .customer-content-text .customer-content-text-i
   max-width: 4.8rem;
 }
 main .community .community-content {
-  margin-top: 4.8rem;
-  margin-bottom: 9.5rem;
+  padding: 4.8rem 0 9.5rem;
 }
 main .community .community-content .community-content-text {
   text-align: center;
@@ -420,7 +422,7 @@ footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 32.8rem;
+  padding: 6.4rem 0;
 }
 footer .footer-content .footer-content-social img {
   width: 100%;

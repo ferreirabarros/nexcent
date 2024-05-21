@@ -1,7 +1,8 @@
 @import "./medias";
 
 header{
-    background-color: $neutral-silver;
+  background-color: $neutral-silver;
+  .header-content{
     .header-nav{
       display: flex;
       justify-content: space-between;
@@ -54,16 +55,21 @@ header{
           padding: 1.6rem 0 3.2rem;
         }
       }
-
+  
       .header-content-img{
         width: 100%;
         max-width: 36.1rem;
       }
     }
-
-    .header-content-imgDots{
-      width: 100%;
-      max-width: 4.6rem;
-      margin: 2.5rem 50vw;
+  
+    .header-dot{
+      display: flex;
+      justify-content: center;
+      .header-dot-img{
+        width: 100%;
+        max-width: 4.6rem;
+        margin: 2.5rem 0;
+      }
     }
+  }
 }

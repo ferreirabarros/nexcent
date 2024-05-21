@@ -2,8 +2,8 @@
 
 main{
   .clients{
-    margin-top: 4rem;
-    margin-bottom: 4.8rem;
+    padding-top: 4rem;
+    padding-bottom: 4.8rem;
     .clients-text{
       text-align: center;
       p{
@@ -79,7 +79,7 @@ main{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 28.8rem;
+      padding: 6.4rem 0;
       .achievements-content-text{
         h2{
           span{
@@ -116,8 +116,7 @@ main{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 4.8rem;
-      margin-bottom: 4.8rem;
+      padding: 4.8rem 0;
       gap: 5rem;
       img{
         width: 100%;
@@ -139,7 +138,7 @@ main{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 39rem;
+      padding: 3.3rem 0;
       gap: 7.8rem;
       .customer-content-img{
         width: 100%;
@@ -174,8 +173,7 @@ main{
 
   .community{
     .community-content{
-      margin-top: 4.8rem;
-      margin-bottom: 9.5rem;
+      padding: 4.8rem 0 9.5rem;
       .community-content-text{
         text-align: center;
         p{
